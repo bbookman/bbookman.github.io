@@ -4,7 +4,6 @@ show-avatar: true
 comments: true
 social-share: true
 title: Bumbling Dev -Cocoapods and SwiftFireworks
-date: ''
 tags:
 - ios
 - swift
