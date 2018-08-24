@@ -1,0 +1,97 @@
+---
+layout: post
+title: Format, Emotion, Content Type, Promise, Topic
+comments: true
+social-share: true
+tags:
+- Tech
+-
+-
+-
+---
+# Headline
+Your headline and opening image are the only things people have to judge your story on. Before they can even read your story’s first paragraph, they must answer a question. It’s the same question that we all ask ourselves every day: is this going to be worth my time?
+
+* 8 to 14-word headline
+* 80 characters or fewer
+* The more emotional (positive or negative) a headline is, the more likely people will click it
+
+## Format, Emotion, Content Type, Promise, Topic
+![](https://d380wq8lfryn3c.cloudfront.net/wp-content/uploads/2016/03/26132124/viral-headline-format.png)
+
+>27 Amazing Charts That Will Turn You Into a Baking Wiz
+
+| Format | Emotion | Content Type | Promise                       | Topic  |
+|--------|---------|--------------|-------------------------------|--------|
+| 27     | Amazing | Charts       | That Will Turn You Into (Wiz) | Baking |
+|--------------------------------------------------------------------------|
+
+### Superlatives
+Superlatives that work best - in order of highest social shares
+
+* Facebook: Amazing, Inspiring
+* Twitter: Amazing, Successful, Inspiring
+* LinkedIn: Successful, Suprising
+
+### Content Type
+
+* Facebook: Pictures, Quotes, Facts, Tips
+* Twitter: Facts, Tips
+* LinkedIn: Habits, Tips, Mistakes
+
+### Format
+For all social: List, How to.  Also the number 10 ("A list of 10 . . ")
+
+### Content
+Dog, Love, Sales
+
+# Image(s)
+Start considering images early in the writing process. And never publish without at least one image. Otherwise your story will be all but invisible in news feeds. You should break up long stories with images.
+
+* Big
+* Beautiful
+* High Resolution
+* [Royalty and Attribution Free at Unsplash](https://unsplash.com/)
+* [Royalty and Attribution Free at Pexels](https://www.pexels.com/)
+* Google : Labeled for Reuse
+
+# First Paragraphs
+* Start making points and telling your story immediately
+* Establish Credibility
+
+# Links
+Should look natural and inline (within sentences and not stand alone)
+
+# Abbreviations
+Don’t use an abbreviation unless the abbreviation is more widely understood than what it stands for
+
+# Sentences
+Err on the side of breaking long sentences and paragraphs down into shorter ones
+
+# Tools
+* [Hemingway App](http://www.hemingwayapp.com/) makes your writing bold and clear
+* [Headline Analyzer](https://coschedule.com/headline-analyzer)
+* [Import to Medium](https://medium.com/p/import)
+
+# Tags
+
+Many publishing sites limit to 5 tags. The most popular Medium ones are #tech, #life-lessons, #travel, #design, and #startup
+
+# References (for this template)
+* [How to get published in the freeCodeCamp Medium publication](https://medium.freecodecamp.org/how-to-get-published-in-the-freecodecamp-medium-publication-9b342a22400e)
+* [How to Write Viral Headlines: New BuzzSumo Research](https://buzzsumo.com/blog/5-ways-create-amazing-viral-headlines/#gs.5AK_Nuo)
+
+# Contact Me
+* [Patreon](https://www.patreon.com/saganone)
+* [Indie Hacker](https://www.indiehackers.com/bbookman)
+* [Blog](http://bbookman.github.io)
+* [LinkedIn](http://linkedin.com/in/brucebookman)
+* [Twitter @saganone1](https://twitter.com/saganone1)
+* [Medium](https://medium.com/adventures-in-ios-mobile-app-development)
+* [Codementor.io](https://www.codementor.io/bbookman)
+* [Sagan.one](http://sagan.one)
+* [Quora](https://saganone.quora.com/)
+* [GitHub](https://github.com/bbookman)
+* [Dev.to](https://dev.to/bbookman)
+* [Reddit](https://www.reddit.com/user/Bbookman)
+* [Youtube](https://www.youtube.com/channel/UCERHLEbt6fipRMiPRR4u3SQ)
