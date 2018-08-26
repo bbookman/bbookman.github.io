@@ -30,10 +30,5 @@ For the longest time I have wondered how to handle String optionals in Swift.  T
 * [Reddit](https://www.reddit.com/user/Bbookman)
 * [Youtube](https://www.youtube.com/channel/UCERHLEbt6fipRMiPRR4u3SQ)
 
-# Read Next Banner
 
-Add banner at bottom with "Read Next" or "Previous/Next" suggestion point to own content
-
-# Old Points to New
-
-Once posted, edit other posts with _“If you enjoyed this piece, you might also like…”_
+# If you liked this post, you may also enjoy [IB Designables – Failed to render and update auto layout status](https://bbookman.github.io/why-didn-t-i-know-about-zamzamkit-before-omg-this-is-great/)
