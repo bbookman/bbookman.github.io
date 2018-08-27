@@ -16,8 +16,9 @@ Your headline and opening image are the only things people have to judge your st
 * 80 characters or fewer
 * The more emotional (positive or negative) a headline is, the more likely people will click it
 
+
 ## Format, Emotion, Content Type, Promise, Topic
-![](https://d380wq8lfryn3c.cloudfront.net/wp-content/uploads/2016/03/26132124/viral-headline-format.png)
+![viral ](https://d380wq8lfryn3c.cloudfront.net/wp-content/uploads/2016/03/26132124/viral-headline-format.png)
 
 >27 Amazing Charts That Will Turn You Into a Baking Wiz
 
@@ -33,7 +34,7 @@ Superlatives that work best - in order of highest social shares
 * Twitter: Amazing, Successful, Inspiring
 * LinkedIn: Successful, Suprising
 
-### Content Type
+### Content Type and Social Channel
 
 * Facebook: Pictures, Quotes, Facts, Tips
 * Twitter: Facts, Tips
@@ -42,8 +43,9 @@ Superlatives that work best - in order of highest social shares
 ### Format
 For all social: List, How to.  Also the number 10 ("A list of 10 . . ")
 
-### Content
+# Topic
 Dog, Love, Sales
+The main ideas seen in the popular medium posts are Machine learning and Data, Javascript, Relationships, Apple and Google, Trump, Bitcoin, Cultural Arts like photography and music
 
 # Image(s)
 Start considering images early in the writing process. And never publish without at least one image. Otherwise your story will be all but invisible in news feeds. You should break up long stories with images.
@@ -51,9 +53,13 @@ Start considering images early in the writing process. And never publish without
 * Big
 * Beautiful
 * High Resolution
+* Popular posts have six images
+
+## Image Resources
 * [Royalty and Attribution Free at Unsplash](https://unsplash.com/)
 * [Royalty and Attribution Free at Pexels](https://www.pexels.com/)
 * Google : Labeled for Reuse
+
 
 # First Paragraphs
 * Start making points and telling your story immediately
@@ -68,6 +74,11 @@ Don’t use an abbreviation unless the abbreviation is more widely understood th
 # Sentences
 Err on the side of breaking long sentences and paragraphs down into shorter ones
 
+# Stats to Shoot For
+* Average Reading time of 8 minutes
+* Average Word Count of 2075
+
+
 # Tools
 * [Hemingway App](http://www.hemingwayapp.com/) makes your writing bold and clear
 * [Headline Analyzer](https://coschedule.com/headline-analyzer)
@@ -80,6 +91,7 @@ Many publishing sites limit to 5 tags. The most popular Medium ones are #tech, #
 # References (for this template)
 * [How to get published in the freeCodeCamp Medium publication](https://medium.freecodecamp.org/how-to-get-published-in-the-freecodecamp-medium-publication-9b342a22400e)
 * [How to Write Viral Headlines: New BuzzSumo Research](https://buzzsumo.com/blog/5-ways-create-amazing-viral-headlines/#gs.5AK_Nuo)
+* [Analyzing Medium’s posts and building a simple prediction service for “Popular on Medium”](https://medium.com/polar-tropics/analyzing-mediums-posts-and-building-a-simple-prediction-service-for-popular-on-medium-d28615947ff4)
 
 # Contact Me
 * [Patreon](https://www.patreon.com/saganone)
