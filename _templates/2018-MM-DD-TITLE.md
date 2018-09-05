@@ -12,8 +12,8 @@ tags:
 # Headline
 Your headline and opening image are the only things people have to judge your story on. Before they can even read your story’s first paragraph, they must answer a question. It’s the same question that we all ask ourselves every day: is this going to be worth my time?
 
-* 8 to 14-word headline 
-* 80 - 90 characters 
+* 8 to 14-word headline
+* 80 - 90 characters
 ** Facebook 40; Twitter 71 - 100; Linkedin 80-120
 * The more emotional (positive or negative) a headline is, the more likely people will click it
 * See headline analyzers in Tools section below
@@ -86,7 +86,8 @@ _This story contains some affiliate links. If you click through and decide to ma
 Don’t use an abbreviation unless the abbreviation is more widely understood than what it stands for
 
 # Sentences
-Err on the side of breaking long sentences and paragraphs down into shorter ones
+Err on the side of breaking long sentences and paragraphs down into shorter ones.
+Use SEO keywords throughout your prose
 
 # Stats to Shoot For
 * Average Reading time of 8 minutes
@@ -107,7 +108,6 @@ Start considering images early in the writing process. And never publish without
 * [Humor at Somecards](https://www.someecards.com/)
 * Google : Labeled for Reuse
 
-
 Create image links (to your desired destination).  Click on an image in the editor and press Ctrl+K or ⌘+K to insert your link
 
 [Consider editing the photo and adding your branding](https://medium.com/swlh/35-actionable-tips-to-grow-your-medium-blog-4e4017b89905)
@@ -124,10 +124,10 @@ Create image links (to your desired destination).  Click on an image in the edit
 ## Summary of Tools
 * [Handpicked Blogging Tools](https://bloghands.com/tools)
 
-
-## Content
+## Content / Topic Ideas
 * [Buzz Sumo](https://buzzsumo.com/)
 * [Market Muse](https://www.marketmuse.com/)
+* [Answer the Public](https://answerthepublic.com/)
 
 ## Headline
 * [CoSchedule Headline Analyzer](https://coschedule.com/headline-analyzer)
@@ -135,11 +135,24 @@ Create image links (to your desired destination).  Click on an image in the edit
 * [Emotional Marketing Headline Analyzer](http://www.aminstitute.com/headline/
 * [Headline Capitalization](https://headlinecapitalization.com/
 
+## Keywords
+* [KeywordTool.io](https://keywordtool.io/)
+* [Google Trends]{https://trends.google.com/trends/}
+* [Moz Keyword Explorer](https://moz.com/explorer)
+* [SpyFu](https://www.spyfu.com/) - good for competitive analysis also)
+* [LSI Graph](http://lsigraph.com/)
+* [SEMRush](https://www.semrush.com/)
+* [KeywordFinder](https://kwfinder.com/)
+* [nTopic Keyword Writer](http://www.ntopic.org/writer.php)
+* [nTopic for Chrome](http://www.ntopic.org/tools.php#chrome)
+
+
 ## Other
 * [Word Counter](http://wordcounter.net/)
 * [Hemingway App](http://www.hemingwayapp.com/) makes your writing bold and clear
 * [Import to Medium](https://medium.com/p/import)
-* [Reading level using Microsoft Word)(https://mk0blogacton3ngqa7ix.kinstacdn.com/wp-content/uploads/2018/03/3-21-18-1.png)
+* [Get reading level using Microsoft Word)(https://mk0blogacton3ngqa7ix.kinstacdn.com/wp-content/uploads/2018/03/3-21-18-1.png)
+* [EpicBeat](https://epicenter.epictions.com/epicbeat/explore/)
 
 # Where to Get Data
 * [U.S. Census](https://www.census.gov/)
