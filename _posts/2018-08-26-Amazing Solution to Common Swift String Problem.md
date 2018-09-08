@@ -8,7 +8,7 @@ tags:
 - Swift
 - Solution
 ---
-For the longest time I have wondered how to handle String optionals in Swift.  There is an odd conundrum when it comes to Strings.  They could be nil, but they could also be empty string "".
+  For the longest time I have wondered how to handle String optionals in Swift.  There is an odd conundrum when it comes to Strings.  They could be nil, but they could also be empty string "".
 
 <iframe src="https://upscri.be/99b881?as_embed" height="400" frameborder="0" style="width:100%;max-width:800px;margin:0 auto;"></iframe>
 

@@ -9,6 +9,9 @@ tags:
 -
 -
 ---
+# Ideas
+* [Blog Topic Generator](https://www.hubspot.com/blog-topic-generator)
+
 # Headline
 Your headline and opening image are the only things people have to judge your story on. Before they can even read your story’s first paragraph, they must answer a question. It’s the same question that we all ask ourselves every day: is this going to be worth my time?
 
