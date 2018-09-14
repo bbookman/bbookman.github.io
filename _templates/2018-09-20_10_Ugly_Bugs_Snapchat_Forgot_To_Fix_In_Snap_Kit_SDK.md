@@ -90,6 +90,53 @@ That URL leads to the I Need Help page and yields bug #2 above and is somewhat r
 ### Suggested Mitigation
 Modify the bots/autorespnse on Snapchat Support Twitter account such that it handles Snap Kit queries appropriately.
 
+## 4 - Code Sample Error in Creative Kit Documentation
+1. Go to https://docs.snapchat.com/docs/creative-kit/
+2. Scroll down to this
+```swift
+/ swift
+
+/* Main image content to be used in the Snap */
+let snapImage = /* Set your image here */
+let photo = SCSDKSnapPhoto(image: snapImage)
+let photoContent = SCSDKSnapPhotoContent(snapPhoto: photo)
+```
+
+### Result
+This line is not correct
+```swift
+let photoContent = SCSDKSnapPhotoContent(snapPhoto: photo)
+```
+It should not be Snap Photo Content...  it should be 'SCSDKPhotoSnapContent'
+See SCSDKPhotoSnapContent.h
+
+### Suggested Mitigation
+Please correct the documentation.
+
+Note there might be a larger issue with the SDK itself.  The naming is inconsistent - see bug 5
+
+## 5 Naming Inconsistencies with Creative Kit
+In Creative Kit there is a method with the name 'SCSDKSnapPhoto'
+
+Carefully notice the pattern of the name.  The first word is **Snap** and second the word **Photo**
+
+Creative Kit also has this method
+'SCSDKPhotoSnapContent'
+
+Notice the naming method is not consistent.  Above the word **Snap** comes before **Photo**, but in this case the word **Photo** comes before the word **Snap**
+
+SCSDK **Snap** _Photo_
+SCSDK _Photo_ **Snap** Content
+
+This same issue is repeated with these pairs of methods from Creative Kit:
+'SCSDKSnapVideo' and 'SCSDKVideoSnapContent'
+
+Here in 'SCSDKSnapVideo' the word **Snap** comes before **Video**, however here 'SCSDKVideoSnapContent' the word **Video** comes before the word **Snap**
+
+### Suggested Mitigation
+1.  Scan all documentation and sample code for accuracy
+2.  Consider renaming such that the pairs are consistent
+3.  If executing 2, provide multiple paths for developers to learn about the change and conduct a comprehensive documentation review
 
 
 
