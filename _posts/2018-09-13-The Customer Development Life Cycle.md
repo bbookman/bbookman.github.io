@@ -25,13 +25,13 @@ With over 20 years in the computer software and hardware industry, and having wo
 [Read my original Medium Post here](https://medium.com/adventures-in-ios-mobile-app-development/the-customer-development-lifecycle-2dec7ac59c30)
 
 # Contact Me
-* [Indie Hacker](https://www.indiehackers.com/bbookman)
-* [Blog](http://bbookman.github.io)
 * [LinkedIn](http://linkedin.com/in/brucebookman)
 * [Twitter @saganone1](https://twitter.com/saganone1)
 * [Medium](https://medium.com/adventures-in-ios-mobile-app-development)
 * [Codementor.io](https://www.codementor.io/bbookman)
 * [Sagan.one](http://sagan.one)
+* [Indie Hacker](https://www.indiehackers.com/bbookman)
+* [Blog](http://bbookman.github.io)
 * [Quora](https://saganone.quora.com/)
 * [GitHub](https://github.com/bbookman)
 * [Dev.to](https://dev.to/bbookman)
