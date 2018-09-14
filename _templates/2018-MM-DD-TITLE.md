@@ -193,14 +193,13 @@ Insert Share Images and links.  [Links can be generated here](http://www.shareli
 This style link works with Medium: https://upscri.be/99b881/
 
 # Contact Me
-* [Patreon](https://www.patreon.com/saganone)
-* [Indie Hacker](https://www.indiehackers.com/bbookman)
-* [Blog](http://bbookman.github.io)
-* [LinkedIn](http://linkedin.com/in/brucebookman)
+
+* [LinkedIn](http://linkedin.com/in/brucebookman) * [Sagan.one](http://sagan.one)
 * [Twitter @saganone1](https://twitter.com/saganone1)
 * [Medium](https://medium.com/adventures-in-ios-mobile-app-development)
 * [Codementor.io](https://www.codementor.io/bbookman)
-* [Sagan.one](http://sagan.one)
+* [Indie Hacker](https://www.indiehackers.com/bbookman)
+* [Blog](http://bbookman.github.io)
 * [Quora](https://saganone.quora.com/)
 * [GitHub](https://github.com/bbookman)
 * [Dev.to](https://dev.to/bbookman)

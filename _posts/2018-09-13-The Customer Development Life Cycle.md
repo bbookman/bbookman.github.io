@@ -9,9 +9,8 @@ tags:
 - Customer Support
 - SDLC
 ---
-## Increasing profits and reducing costs at each stage of the software development life cycle through focus on the customer
-
 ![](https://cdn-images-1.medium.com/max/880/1*CruHTnju0YFClMvaW_bMOw.png)
+## Increasing profits and reducing costs at each stage of the software development life cycle through focus on the customer
 
 >Your most unhappy customers are your greatest source of learning. ~ Bill Gates
 
