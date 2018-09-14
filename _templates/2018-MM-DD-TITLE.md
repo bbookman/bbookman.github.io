@@ -169,16 +169,6 @@ Create image links (to your desired destination).  Click on an image in the edit
 
 Many publishing sites limit to 5 tags. The most popular Medium ones are #tech, #life-lessons, #travel, #design, and #startup
 
-# References (for this template)
-* [How to get published in the freeCodeCamp Medium publication](https://medium.freecodecamp.org/how-to-get-published-in-the-freecodecamp-medium-publication-9b342a22400e)
-* [How to Write Viral Headlines: New BuzzSumo Research](https://buzzsumo.com/blog/5-ways-create-amazing-viral-headlines/#gs.5AK_Nuo)
-* [Analyzing Medium’s posts and building a simple prediction service for “Popular on Medium”](https://medium.com/polar-tropics/analyzing-mediums-posts-and-building-a-simple-prediction-service-for-popular-on-medium-d28615947ff4)
-* [The Ultimate List of Marketing Statistics for 2018](https://www.hubspot.com/marketing-statistics)
-* [5 Characteristics Of High Converting Headlines](https://conversionxl.com/blog/5-characteristics-high-converting-headlines/)
-* [We Analyzed 100 Million Headlines. Here’s What We Learned](https://buzzsumo.com/blog/most-shared-headlines-study)
-* [Your Blog Posts Need More Statistics: Why And How To Get Them](https://www.forbes.com/sites/jaysondemers/2018/05/10/your-blog-posts-need-more-statistics-why-and-how-to-get-them/#2dee6357355b)
-* [10 LinkedIn Publishing Tips: We Analyzed 3000 LinkedIn Blog Posts](https://okdork.com/linkedin-publishing-success/)
-
 # Publish With the Big Guns
 * [freeCodeCamp](http://bit.ly/how-to-submit)
 * [Top Publications](https://toppub.xyz/)
@@ -222,3 +212,10 @@ Once posted, edit other posts with _“If you enjoyed this piece, you might also
 * [Why These 21 Headlines Went Viral (and How You Can Copy Their Success)](https://optinmonster.com/why-these-21-headlines-went-viral-and-how-you-can-copy-their-success)
 * [According to a Study, There’s a Good Chance You’ll Click This Headline Because It’s 97 Characters](https://contently.com/strategist/2017/11/09/study-longer-headline-better/)
 * [Do’s & Don’ts of Re-publishing Content on Medium or LinkedIn](https://www.impactbnd.com/blog/dos-donts-of-re-publishing-content-on-medium-or-linkedin)
+* [Analyzing Medium’s posts and building a simple prediction service for “Popular on Medium”](https://medium.com/polar-tropics/analyzing-mediums-posts-and-building-a-simple-prediction-service-for-popular-on-medium-d28615947ff4)
+* [The Ultimate List of Marketing Statistics for 2018](https://www.hubspot.com/marketing-statistics)
+* [5 Characteristics Of High Converting Headlines](https://conversionxl.com/blog/5-characteristics-high-converting-headlines/)
+* [We Analyzed 100 Million Headlines. Here’s What We Learned](https://buzzsumo.com/blog/most-shared-headlines-study)
+* [Your Blog Posts Need More Statistics: Why And How To Get Them](https://www.forbes.com/sites/jaysondemers/2018/05/10/your-blog-posts-need-more-statistics-why-and-how-to-get-them/#2dee6357355b)
+* [10 LinkedIn Publishing Tips: We Analyzed 3000 LinkedIn Blog Posts](https://okdork.com/linkedin-publishing-success/)
+* [Best Free Headline Analyzer Tools for Quickly Writing Better Titles](https://bloghands.com/blog/best-free-headline-analyzer-tools-for-quickly-writing-better-titles)
