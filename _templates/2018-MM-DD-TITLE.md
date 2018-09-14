@@ -9,9 +9,6 @@ tags:
 -
 -
 ---
-# Ideas
-* [Blog Topic Generator](https://www.hubspot.com/blog-topic-generator)
-
 # Headline
 Your headline and opening image are the only things people have to judge your story on. Before they can even read your story’s first paragraph, they must answer a question. It’s the same question that we all ask ourselves every day: is this going to be worth my time?
 
@@ -131,6 +128,9 @@ Create image links (to your desired destination).  Click on an image in the edit
 * [Buzz Sumo](https://buzzsumo.com/)
 * [Market Muse](https://www.marketmuse.com/)
 * [Answer the Public](https://answerthepublic.com/)
+* [Blog Topic Generator](https://www.hubspot.com/blog-topic-generator)
+* [SEMRush](https://www.semrush.com/topic-research/), first two free
+
 
 ## Headline
 * [CoSchedule Headline Analyzer](https://coschedule.com/headline-analyzer)
@@ -138,7 +138,7 @@ Create image links (to your desired destination).  Click on an image in the edit
 * [Emotional Marketing Headline Analyzer](http://www.aminstitute.com/headline/
 * [Headline Capitalization](https://headlinecapitalization.com/
 
-## Keywords
+## Keywords and SEO
 * [KeywordTool.io](https://keywordtool.io/)
 * [Google Trends]{https://trends.google.com/trends/}
 * [Moz Keyword Explorer](https://moz.com/explorer)
@@ -148,7 +148,8 @@ Create image links (to your desired destination).  Click on an image in the edit
 * [KeywordFinder](https://kwfinder.com/)
 * [nTopic Keyword Writer](http://www.ntopic.org/writer.php)
 * [nTopic for Chrome](http://www.ntopic.org/tools.php#chrome)
-
+* [Textalyser](http://textalyser.net/)
+* [Tag Crowd](https://tagcrowd.com/)
 
 ## Other
 * [Word Counter](http://wordcounter.net/)
