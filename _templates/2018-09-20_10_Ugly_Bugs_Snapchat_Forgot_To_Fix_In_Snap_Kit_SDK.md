@@ -91,6 +91,7 @@ That URL leads to the I Need Help page and yields bug #2 above and is somewhat r
 Modify the bots/autorespnse on Snapchat Support Twitter account such that it handles Snap Kit queries appropriately.
 
 ## 4 - Code Sample Error in Creative Kit Documentation
+### Steps To Reproduce
 1. Go to https://docs.snapchat.com/docs/creative-kit/
 2. Scroll down to this
 ```swift
@@ -138,7 +139,40 @@ Here in 'SCSDKSnapVideo' the word **Snap** comes before **Video**, however here 
 2.  Consider renaming such that the pairs are consistent
 3.  If executing 2, provide multiple paths for developers to learn about the change and conduct a comprehensive documentation review
 
+## 6 - Login Scopes Information Misplaced
+### Steps To Reproduce
+1. Go to https://docs.snapchat.com/docs/login-kit/
 
+### Result
+The entire section titled **Understanding Scopes** seems misplaced.  The section is the very first section for Login Kit.
+
+Further the section provides code for iOS Info.plist **yet** this page is a generic page contains both iOS and Android instruction.  So starting the document off with strictly iOS information is odd at best.
+
+### Suggested Mitigation
+Move this text to the **Getting Started** section on this page.  Perhaps somewhere near the text describing Info.plist entries
+
+
+## 7 - Embeded Binaries Info is Out of date
+>In your app project in Xcode, add SCSDKCoreKit.framework and SCSDKLoginKit.framework into General - Embedded Binaries.
+
+## Bonus
+
+* Thank you for contacting us
+* Portal badly designed
+* Follow up email from "real" support is poorly templated
+* VIDEO for each bug
+
+## Bonus A -
+1. Go to https://docs.snapchat.com/docs/
+2. Note the text
+>To stay up to date with our SDKs, see what’s new and follow @snapkit on Twitter.
+3.  Review the tweets from @snapkit on Twitter
+
+### Result
+Although the twitter account @snapkit was established May 2018, and it is now September 2018, there are 4 total tweets.
+
+### Suggested Mitigation
+The marketing team or other team that owns this account needs to start producting and posting more content and the account should also post with information that reflects the "see what's new" statement in the documentation.
 
 # Links
 * Should look natural and inline (within sentences and not stand alone)
