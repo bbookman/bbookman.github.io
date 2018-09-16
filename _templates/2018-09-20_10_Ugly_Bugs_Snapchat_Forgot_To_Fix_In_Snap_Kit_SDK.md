@@ -9,6 +9,9 @@ tags:
 - Snap Kit
 - Mobile Development
 ---
+
+!!!!! Add "Written By Bruce Bookman" to image !!!!!!!
+
 ![](https://installornot.com/wp-content/uploads/Snapchat-Snap-Kit-1024x544.jpg)
 ## Snap has many bussiness problems, including the poor roll out of Snap Kit SDK.
 The bugs described are purposefully written in "Bug Style" with the hope that Snap Kit support will file these through modified copy/paste
