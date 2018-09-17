@@ -155,15 +155,38 @@ Further the section provides code for iOS Info.plist **yet** this page is a gene
 Move this text to the **Getting Started** section on this page.  Perhaps somewhere near the text describing Info.plist entries
 
 
-## 7 - Embeded Binaries Info is Out of date
+## 7 - Embeded Binaries documentation can be replaced or augmented to include Cocoapod
+### Steps To Reproduce
+1. Go to https://docs.snapchat.com/docs/login-kit/
+2. Inspect the Getting Started section
+
+### Result
 >In your app project in Xcode, add SCSDKCoreKit.framework and SCSDKLoginKit.framework into General - Embedded Binaries.
+
+The above text is correct, yet incomplete.  Snap Kit now offers a Cocoapod install solution.
+### Suggested Mitigation
+Add information about how to use the Cocoapod option for installing Snap Kit
+
+## 8 - Snap Kit SDK naming
+### Steps To Reproduce
+1. Go to https://github.com/SnapKit/SnapKit or http://snapkit.io/
+
+### Result
+The name of this well established code line is SnapKit, which can cause confustion with Snap Kit.
+
+### Suggested Mitigation
+Although it is late, it is important to note this issue.  This code base has existed for at least 4 years and is fairly popular with iOS developers.  A google search prior to choosing the name of Snap Kit would have been wise.  Further, if Snap is not using an outside name search service, it would be helpful to consider doing that for future naming
+
+# 9 -
 
 ## Bonus
 
+* Add image for each bug
 * Thank you for contacting us
 * Portal badly designed
 * Follow up email from "real" support is poorly templated
 * VIDEO for each bug
+* Supply example code for each Kit / All kits (see bitmoji on GitHub)
 
 ## Bonus A -
 1. Go to https://docs.snapchat.com/docs/
