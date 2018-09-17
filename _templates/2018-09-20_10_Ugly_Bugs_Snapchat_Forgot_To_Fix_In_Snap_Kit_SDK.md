@@ -51,7 +51,7 @@ There are a few issues with the autorespnse:
 Reword the autorespnse:
 > Thank you for contacting Snap Kit Support.  This autorespnse is to let you know we recieved your request and will be reaching out to you shortly
 
-## 2 - Add Snap Kit SDK Support Options To I Need help
+## 2 - Add Snap Kit SDK Support Options To 'I Need Help'
 ### Steps To Reproduce
 1. Go to support.snapchat.com/i-need-help
 
@@ -172,23 +172,48 @@ Add information about how to use the Cocoapod option for installing Snap Kit
 1. Go to https://github.com/SnapKit/SnapKit or http://snapkit.io/
 
 ### Result
-The name of this well established code line is SnapKit, which can cause confustion with Snap Kit.
+The name of this well established code line is SnapKit, which can cause confusion with Snap Kit.
 
 ### Suggested Mitigation
 Although it is late, it is important to note this issue.  This code base has existed for at least 4 years and is fairly popular with iOS developers.  A google search prior to choosing the name of Snap Kit would have been wise.  Further, if Snap is not using an outside name search service, it would be helpful to consider doing that for future naming
 
-# 9 -
+# 9 - UI of Developer Portal Confusing
+### Steps To Reproduce
+1.  With a user id and password log in at http://kit.snapchat.com
+
+### Result
+![](https://github.com/bbookman/Snapchat-Snap-Kit-DIY-Docs/raw/master/images/devportal1.png)
+This UI does not lend itself to a clear understanding that there are two distinct areas.  The above image explains the problem best.  It is not very clear that there are two sections here.  There is no line between them and the title _App Info_ on the right side does not clearly denote the left side as applying to production (rather than development on the right side).  
+
+### Suggested Mitigation
+At minimum, place a vertical line between the two areas _App Onfo_ and _Development App Info_.
+Also, change the titles of the OAUTH2 CLIENT ID fields so that they read **Production OAUTH2 CLIENT ID** and **DEVELOPMENT OAUTH2 CLIENT ID**
+
+# 10 - Unlink Sessions Methods Do Not Include Potential Thrown Errors
+1.  Go to https://docs.snapchat.com/docs/login-kit/
+2.  Inspect the information on unlinking Sessions
+```swift
+SCSDKLoginClient.unlinkCurrentSessionWithCompletion { (success: Bool) in
+  // do something
+}
+```
+
+### Result
+Neither of the two method throw errors
+* SCSDKLoginClient.unlinkCurrentSessionWithCompletion
+* SCSDKLoginClient.unlinkAllSessionsWithCompletion
+
+### Suggested Mitigation
+Include code to throw errors
 
 ## Bonus
-
 * Add image for each bug
-* Thank you for contacting us
-* Portal badly designed
 * Follow up email from "real" support is poorly templated
 * VIDEO for each bug
 * Supply example code for each Kit / All kits (see bitmoji on GitHub)
 
-## Bonus A -
+## Bonus A - Snap Kit Twitter Account Not Active Nor Informative
+### Steps To Reproduce
 1. Go to https://docs.snapchat.com/docs/
 2. Note the text
 >To stay up to date with our SDKs, see what’s new and follow @snapkit on Twitter.
@@ -198,7 +223,25 @@ Although it is late, it is important to note this issue.  This code base has exi
 Although the twitter account @snapkit was established May 2018, and it is now September 2018, there are 4 total tweets.
 
 ### Suggested Mitigation
-The marketing team or other team that owns this account needs to start producting and posting more content and the account should also post with information that reflects the "see what's new" statement in the documentation.
+The marketing team or other team that owns this account needs to start producing and posting more content and the account should also post with information that reflects the "see what's new" statement in the documentation.
+
+## Bonus B - API Reference For iOS First Paragraph Seems Out Of Date
+1. Go to https://docs.snapchat.com/docs/api/ios/
+2. Note the text
+>This documentation assumes you already made contact with us
+
+### Result
+I think this text was written when Snap Kit was in beta or had a small and managed audience.  And, the text is confusing.  There are no instructions here about how someone makes contact.  
+
+### Suggested Mitigation
+Remove the sentence or, if contact is required, explain how and why
+
+
+## Bonus C -
+
+
+
+
 
 # Links
 * Should look natural and inline (within sentences and not stand alone)

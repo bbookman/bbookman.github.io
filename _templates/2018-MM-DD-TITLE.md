@@ -185,16 +185,18 @@ This style link works with Medium: https://upscri.be/99b881/
 # Contact Me
 
 * [LinkedIn](http://linkedin.com/in/brucebookman) * [Sagan.one](http://sagan.one)
+* [GitHub](https://github.com/bbookman)
 * [Twitter @saganone1](https://twitter.com/saganone1)
+* Mastodon: @brucebookman@mastodon.technology
 * [Medium](https://medium.com/adventures-in-ios-mobile-app-development)
+* [Blog](http://bbookman.github.io)
 * [Codementor.io](https://www.codementor.io/bbookman)
 * [Indie Hacker](https://www.indiehackers.com/bbookman)
-* [Blog](http://bbookman.github.io)
-* [Quora](https://saganone.quora.com/)
-* [GitHub](https://github.com/bbookman)
 * [Dev.to](https://dev.to/bbookman)
 * [Reddit](https://www.reddit.com/user/Bbookman)
 * [Youtube](https://www.youtube.com/channel/UCERHLEbt6fipRMiPRR4u3SQ)
+* [Quora](https://saganone.quora.com/)
+
 
 # Read Next Banner
 
