@@ -37,19 +37,20 @@ Also some of these could be considered feature requests, documentation requests 
 > Feedback?
 > We regularly update our documentation to give you everything you need for creative, easy integrations. If something’s not working for you, please report it to snapkit-support@snap.com."
 3. Send an email to snapkit-support@snap.com as instructed in the text
-4. Wait for an autorespnse and read it
+4. Wait for an automated response and read it
 ### Result
-Autorespnse text says:
+automated response text says:
 >Hi there!" Learn more about Snap Kit by visiting support.snapchat.com/news/snapkit. If you have further questions please reach out to us at support.snapchat.com/i-need-help.  Thanks!
 
-There are a few issues with the autorespnse:
+There are a few issues with the automated response:
 * Tells the customer who is seeking customer support to look at the news blog.  The news blog is **not** designed as a customer support tool.
 * Tells the customer if they need further assistance to go to "I need help".  Here again, this part of the Snapchat website is **not** designed to deliver developer nor customer facing support for Snap Kit.  A look at that URL will show that there is no way to report a specific Snap Kit SDK issue and the user will feel like anything they report there will end up in a black hole.
-* The autorespnse does not say that anyone will actually read the email the customer sent nor help.  It only talks about where to go and what to read.  It is far from customer friendly.
+* The automated responsedoes not say that anyone will actually read the email the customer sent nor help.  It only talks about where to go and what to read.  It is far from customer friendly.
 
 ### Suggested Mitigation
-Reword the autorespnse:
-> Thank you for contacting Snap Kit Support.  This autorespnse is to let you know we recieved your request and will be reaching out to you shortly
+Reword the automated response:
+> Thank you for contacting Snap Kit Support.  This automated response is to let you know we received your request and will be reaching out to you shortly
+
 
 ## 2 - Add Snap Kit SDK Support Options To 'I Need Help'
 ### Steps To Reproduce
@@ -91,7 +92,7 @@ The next response also seemed canned and perhaps a bot
 That URL leads to the I Need Help page and yields bug #2 above and is somewhat related to bug #1 as well.
 
 ### Suggested Mitigation
-Modify the bots/autorespnse on Snapchat Support Twitter account such that it handles Snap Kit queries appropriately.
+Modify the bots/automated responseon Snapchat Support Twitter account such that it handles Snap Kit queries appropriately.
 
 ## 4 - Code Sample Error in Creative Kit Documentation
 ### Steps To Reproduce
@@ -223,7 +224,7 @@ Include code to throw errors
 Although the twitter account @snapkit was established May 2018, and it is now September 2018, there are 4 total tweets.
 
 ### Suggested Mitigation
-The marketing team or other team that owns this account needs to start producing and posting more content and the account should also post with information that reflects the "see what's new" statement in the documentation.
+The marketing team or other team that owns this account needs to start produc ing and posting more content and the account should also post with information that reflects the "see what's new" statement in the documentation.
 
 ## Bonus B - API Reference For iOS First Paragraph Seems Out Of Date
 1. Go to https://docs.snapchat.com/docs/api/ios/
@@ -237,10 +238,31 @@ I think this text was written when Snap Kit was in beta or had a small and manag
 Remove the sentence or, if contact is required, explain how and why
 
 
-## Bonus C -
+## Bonus C - Snap Kit Support Boilerplate Not Helpful
+1.  Send a support request to snapkit-support@snap.com
+2.  After the initial automated response documented in Bug 1 above and others, wait for and then read the "live human" support response
 
+### Result
+>Chuck (Snap Connect)
 
+Aug 10, 11:20 AM PDT
 
+Hello there,
+
+Thanks for reporting this! In order for us to debug this better, could you please provide the following information:
+
+Username
+Client ID
+Specific URLs or assets used
+Info.plist (if there’s no sensitive information)
+Code sample if possible
+Screen recording and or screenshots
+IP address
+
+### Suggested Mitigation
+I have sent a number of different requests to support and have seen this boilerplate response from Chuck.  Since every SDK engagement is different, this text is not helpful.  In face, I had asked a specific question about the developer portal and then saw this text.  It made me feel that my support issue was not even read, and that the support tech did not bother to read or care about my issue.
+
+Either modify the text for inclusiveness, or change SOP such that support reps no longer use the boilerplate (or use it with greater thought)
 
 
 # Links
