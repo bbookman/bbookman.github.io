@@ -1,6 +1,6 @@
 ---
 layout: post
-title: 10 Ugly Bugs Snapchat Didn't Bother To Fix In Snap Kit SDK And The Bussiness Lessons They Teach
+title: 10 Ugly Bugs Snap Didn't Bother To Fix In Snap Kit And Lessons They Teach
 comments: true
 social-share: true
 tags:
@@ -14,7 +14,7 @@ tags:
 
 ![](https://installornot.com/wp-content/uploads/Snapchat-Snap-Kit-1024x544.jpg)
 ## Snap has many bussiness problems, including the poor roll out of Snap Kit SDK.
-The bugs described are purposefully written in "Bug Style" with the hope that Snap Kit support will file these through modified copy/paste
+The bugs described are purposefully written in "Bug Style" with the hope that each will actually get filed against Snap Kit SDK 
 
 # Snapchat Snap Kit SDK Primer
 I'm an iOS Hobbyist develper and have been working with Snap Kit now for many months.  With over 10 Medium posts, I have been chronicalling my struggles and victories.
@@ -27,19 +27,22 @@ Some of the bugs documented below are nit-picky, however Snap is in no position 
 
 Also some of these could be considered feature requests, documentation requests or things that are "not bugs".  As someone with 20 years of software industry experience, I say these are "Failures" that need to be addressed (aka Bugs).
 
-![](https://pixabay.com/photo-2123517/)
+![snapchat-2123517_1920.jpg](https://i.postimg.cc/vmG3vz0s/snapchat-2123517_1920.jpg)
 
 # Bugs
 ## 1 - Single Point Of Support
 ### Steps To Reproduce
 1. Go to https://docs.snapchat.com/docs/
 2. Note the text
+
 > Feedback?
-> We regularly update our documentation to give you everything you need for creative, easy integrations. If something’s not working for you, please report it to snapkit-support@snap.com."
+We regularly update our documentation to give you everything you need for creative, easy integrations. If something’s not working for you, please report it to snapkit-support@snap.com.
+
 3. Send an email to snapkit-support@snap.com as instructed in the text
 4. Wait for an automated response and read it
+
 ### Result
-automated response text says:
+Automated response text says:
 >Hi there!" Learn more about Snap Kit by visiting support.snapchat.com/news/snapkit. If you have further questions please reach out to us at support.snapchat.com/i-need-help.  Thanks!
 
 There are a few issues with the automated response:
@@ -51,10 +54,11 @@ There are a few issues with the automated response:
 Reword the automated response:
 > Thank you for contacting Snap Kit Support.  This automated response is to let you know we received your request and will be reaching out to you shortly
 
+![](https://i.postimg.cc/hjxdpjhr/call-center-1015274_1920.jpg)
 
 ## 2 - Add Snap Kit SDK Support Options To 'I Need Help'
 ### Steps To Reproduce
-1. Go to support.snapchat.com/i-need-help
+1. Go to http://support.snapchat.com/i-need-help
 
 ### Result
 Note the available options:
@@ -76,6 +80,8 @@ None of the above are remotely clear options for someone seeking Snap Kit SDK as
 ### Suggested Mitigation
 Add an option for Snap Kit SDK Support
 
+![](https://cdn-images-1.medium.com/max/2000/1*gCTL9i4szIqePqvcSfRr2g.png)
+
 ## 3 - Snapchat Support On Twitter Needs Redirect Option for SDK questions
 ### Steps to Reproduce
 1. Go to https://twitter.com/snapchatsupport
@@ -92,7 +98,9 @@ The next response also seemed canned and perhaps a bot
 That URL leads to the I Need Help page and yields bug #2 above and is somewhat related to bug #1 as well.
 
 ### Suggested Mitigation
-Modify the bots/automated responseon Snapchat Support Twitter account such that it handles Snap Kit queries appropriately.
+Modify the bots/automated response on Snapchat Support Twitter account such that it handles Snap Kit queries appropriately.
+
+![](https://i.postimg.cc/sX92MZvt/error-102075_1920.jpg)
 
 ## 4 - Code Sample Error in Creative Kit Documentation
 ### Steps To Reproduce
@@ -112,21 +120,22 @@ This line is not correct
 ```swift
 let photoContent = SCSDKSnapPhotoContent(snapPhoto: photo)
 ```
-It should not be Snap Photo Content...  it should be 'SCSDKPhotoSnapContent'
-See SCSDKPhotoSnapContent.h
+It should be 'SCSDKPhotoSnapContent' rather than 'CSDKSnapPhotoContent' (see also bug 5 below)
+
 
 ### Suggested Mitigation
 Please correct the documentation.
 
 Note there might be a larger issue with the SDK itself.  The naming is inconsistent - see bug 5
 
-## 5 Naming Inconsistencies with Creative Kit
+![](https://i.postimg.cc/8ztB6jrf/man-932840_1280.jpg)
+
+## 5 - Naming Inconsistencies with Creative Kit
 In Creative Kit there is a method with the name 'SCSDKSnapPhoto'
 
 Carefully notice the pattern of the name.  The first word is **Snap** and second the word **Photo**
 
-Creative Kit also has this method
-'SCSDKPhotoSnapContent'
+Creative Kit also has the method 'SCSDKPhotoSnapContent'
 
 Notice the naming method is not consistent.  Above the word **Snap** comes before **Photo**, but in this case the word **Photo** comes before the word **Snap**
 
@@ -143,6 +152,7 @@ Here in 'SCSDKSnapVideo' the word **Snap** comes before **Video**, however here 
 2.  Consider renaming such that the pairs are consistent
 3.  If executing 2, provide multiple paths for developers to learn about the change and conduct a comprehensive documentation review
 
+![](https://i.postimg.cc/156yXq2M/atlas-green-1507-unsplash.jpg)
 ## 6 - Login Scopes Information Misplaced
 ### Steps To Reproduce
 1. Go to https://docs.snapchat.com/docs/login-kit/
@@ -155,6 +165,7 @@ Further the section provides code for iOS Info.plist **yet** this page is a gene
 ### Suggested Mitigation
 Move this text to the **Getting Started** section on this page.  Perhaps somewhere near the text describing Info.plist entries
 
+![](https://i.postimg.cc/Z54zqDrK/nousnou-iwasaki-45718-unsplash.jpg)
 
 ## 7 - Embeded Binaries documentation can be replaced or augmented to include Cocoapod
 ### Steps To Reproduce
@@ -168,6 +179,8 @@ The above text is correct, yet incomplete.  Snap Kit now offers a Cocoapod insta
 ### Suggested Mitigation
 Add information about how to use the Cocoapod option for installing Snap Kit
 
+![](https://i.postimg.cc/KYjVkX4F/nathaniel-shuman-396960-unsplash.jpg)
+
 ## 8 - Snap Kit SDK naming
 ### Steps To Reproduce
 1. Go to https://github.com/SnapKit/SnapKit or http://snapkit.io/
@@ -177,6 +190,8 @@ The name of this well established code line is SnapKit, which can cause confusio
 
 ### Suggested Mitigation
 Although it is late, it is important to note this issue.  This code base has existed for at least 4 years and is fairly popular with iOS developers.  A google search prior to choosing the name of Snap Kit would have been wise.  Further, if Snap is not using an outside name search service, it would be helpful to consider doing that for future naming
+
+![](https://i.postimg.cc/Y2z3Hnqx/chuttersnap-478260-unsplash.jpg)
 
 # 9 - UI of Developer Portal Confusing
 ### Steps To Reproduce
@@ -188,8 +203,9 @@ This UI does not lend itself to a clear understanding that there are two distinc
 
 ### Suggested Mitigation
 At minimum, place a vertical line between the two areas _App Onfo_ and _Development App Info_.
-Also, change the titles of the OAUTH2 CLIENT ID fields so that they read **Production OAUTH2 CLIENT ID** and **DEVELOPMENT OAUTH2 CLIENT ID**
+Also, change the titles of the OAUTH2 CLIENT ID fields so that they read **PRODUCTION OAUTH2 CLIENT ID** and **DEVELOPMENT OAUTH2 CLIENT ID**
 
+![](https://i.postimg.cc/4NMhkVt5/milkovi-344432-unsplash.jpg)
 # 10 - Unlink Sessions Methods Do Not Include Potential Thrown Errors
 1.  Go to https://docs.snapchat.com/docs/login-kit/
 2.  Inspect the information on unlinking Sessions
@@ -213,7 +229,7 @@ Include code to throw errors
 * VIDEO for each bug
 * Supply example code for each Kit / All kits (see bitmoji on GitHub)
 
-## Bonus A - Snap Kit Twitter Account Not Active Nor Informative
+## A - Snap Kit Twitter Account Not Active Nor Informative
 ### Steps To Reproduce
 1. Go to https://docs.snapchat.com/docs/
 2. Note the text
@@ -226,7 +242,7 @@ Although the twitter account @snapkit was established May 2018, and it is now Se
 ### Suggested Mitigation
 The marketing team or other team that owns this account needs to start produc ing and posting more content and the account should also post with information that reflects the "see what's new" statement in the documentation.
 
-## Bonus B - API Reference For iOS First Paragraph Seems Out Of Date
+## B - API Reference For iOS First Paragraph Seems Out Of Date
 1. Go to https://docs.snapchat.com/docs/api/ios/
 2. Note the text
 >This documentation assumes you already made contact with us
@@ -238,19 +254,14 @@ I think this text was written when Snap Kit was in beta or had a small and manag
 Remove the sentence or, if contact is required, explain how and why
 
 
-## Bonus C - Snap Kit Support Boilerplate Not Helpful
+## C - Snap Kit Support Boilerplate Not Helpful
 1.  Send a support request to snapkit-support@snap.com
 2.  After the initial automated response documented in Bug 1 above and others, wait for and then read the "live human" support response
 
 ### Result
 >Chuck (Snap Connect)
-
-Aug 10, 11:20 AM PDT
-
 Hello there,
-
 Thanks for reporting this! In order for us to debug this better, could you please provide the following information:
-
 Username
 Client ID
 Specific URLs or assets used
@@ -264,73 +275,16 @@ I have sent a number of different requests to support and have seen this boilerp
 
 Either modify the text for inclusiveness, or change SOP such that support reps no longer use the boilerplate (or use it with greater thought)
 
+## D - Missing Example Code
+### Steps To Reproduce
+1. Go to https://github.com/Snap-Kit
 
-# Links
-* Should look natural and inline (within sentences and not stand alone)
-* Make sure to Canonicalize your original articles
-```
-<link rel="canonical" href="LINK TO ORIGINAL" />
-```
+### Result
+* No code samples for Android
+* One sample for iOs, but only covers Bitmoji
 
-Honest text for affiliate links
-
-_This story contains some affiliate links. If you click through and decide to make a purchase, I will receive a small commission at no extra cost to you_
-
-# Abbreviations
-Don’t use an abbreviation unless the abbreviation is more widely understood than what it stands for
-
-# Sentences
-Err on the side of breaking long sentences and paragraphs down into shorter ones.
-Use SEO keywords throughout your prose
-
-# Stats to Shoot For
-* Average Reading time of 8 minutes
-* Medium = Average Word Count of 2075 | Google/SEO 1,140-1,285
-* LinkedIn = Flesch-Kincaid readability score 80-89 (See tools below)
-
-# Image(s)
-Start considering images early in the writing process. And never publish without at least one image. Otherwise your story will be all but invisible in news feeds. You should break up long stories with images. Blog articles with images get 94% more views
-
-* Big
-* Beautiful
-* High Resolution
-* Popular posts have six images
-
-## Image Resources
-* [Royalty and Attribution Free at Unsplash](https://unsplash.com/)
-* [Royalty and Attribution Free at Pexels](https://www.pexels.com/)
-* [Humor at Somecards](https://www.someecards.com/)
-* Google : Labeled for Reuse
-
-Create image links (to your desired destination).  Click on an image in the editor and press Ctrl+K or ⌘+K to insert your link
-
-[Consider editing the photo and adding your branding](https://medium.com/swlh/35-actionable-tips-to-grow-your-medium-blog-4e4017b89905)
-
-# Post Timing
-* LinkedIn: Thursday
-
-# Post Distribution
-* Syndicating is a great way to expand the reach of your content, however, when you’re re-posting content on LinkedIn and Medium, don’t give the readers the entire article -- especially if your goal is to drive referral traffic.
-* [Postable quotes](http://getpikiz.com/)
-
-# Tools
-
-## Summary of Tools
-* [Handpicked Blogging Tools](https://bloghands.com/tools)
-
-## Content / Topic Ideas
-* [Buzz Sumo](https://buzzsumo.com/)
-* [Market Muse](https://www.marketmuse.com/)
-* [Answer the Public](https://answerthepublic.com/)
-* [Blog Topic Generator](https://www.hubspot.com/blog-topic-generator)
-* [SEMRush](https://www.semrush.com/topic-research/), first two free
-
-
-## Headline
-* [CoSchedule Headline Analyzer](https://coschedule.com/headline-analyzer)
-* [ShareThrough Headline Analyzer](https://headlines.sharethrough.com/)
-* [Emotional Marketing Headline Analyzer](http://www.aminstitute.com/headline/
-* [Headline Capitalization](https://headlinecapitalization.com/
+### Suggested Mitigation
+Supply Example Code For All Kits and both iOS and Android
 
 ## Keywords and SEO
 * [KeywordTool.io](https://keywordtool.io/)
@@ -344,34 +298,6 @@ Create image links (to your desired destination).  Click on an image in the edit
 * [nTopic for Chrome](http://www.ntopic.org/tools.php#chrome)
 * [Textalyser](http://textalyser.net/)
 * [Tag Crowd](https://tagcrowd.com/)
-
-## Other
-* [Word Counter](http://wordcounter.net/)
-* [Hemingway App](http://www.hemingwayapp.com/) makes your writing bold and clear
-* [Import to Medium](https://medium.com/p/import)
-* [Get reading level using Microsoft Word)(https://mk0blogacton3ngqa7ix.kinstacdn.com/wp-content/uploads/2018/03/3-21-18-1.png)
-* [EpicBeat](https://epicenter.epictions.com/epicbeat/explore/)
-
-# Where to Get Data
-* [U.S. Census](https://www.census.gov/)
-* [Statistica](https://www.statista.com/)
-* [Pew Research](http://www.pewresearch.org/)
-* [Google Scholar](https://scholar.google.com/)
-
-
-# Tags
-
-Many publishing sites limit to 5 tags. The most popular Medium ones are #tech, #life-lessons, #travel, #design, and #startup
-
-# References (for this template)
-* [How to get published in the freeCodeCamp Medium publication](https://medium.freecodecamp.org/how-to-get-published-in-the-freecodecamp-medium-publication-9b342a22400e)
-* [How to Write Viral Headlines: New BuzzSumo Research](https://buzzsumo.com/blog/5-ways-create-amazing-viral-headlines/#gs.5AK_Nuo)
-* [Analyzing Medium’s posts and building a simple prediction service for “Popular on Medium”](https://medium.com/polar-tropics/analyzing-mediums-posts-and-building-a-simple-prediction-service-for-popular-on-medium-d28615947ff4)
-* [The Ultimate List of Marketing Statistics for 2018](https://www.hubspot.com/marketing-statistics)
-* [5 Characteristics Of High Converting Headlines](https://conversionxl.com/blog/5-characteristics-high-converting-headlines/)
-* [We Analyzed 100 Million Headlines. Here’s What We Learned](https://buzzsumo.com/blog/most-shared-headlines-study)
-* [Your Blog Posts Need More Statistics: Why And How To Get Them](https://www.forbes.com/sites/jaysondemers/2018/05/10/your-blog-posts-need-more-statistics-why-and-how-to-get-them/#2dee6357355b)
-* [10 LinkedIn Publishing Tips: We Analyzed 3000 LinkedIn Blog Posts](https://okdork.com/linkedin-publishing-success/)
 
 # Publish With the Big Guns
 * [freeCodeCamp](http://bit.ly/how-to-submit)
