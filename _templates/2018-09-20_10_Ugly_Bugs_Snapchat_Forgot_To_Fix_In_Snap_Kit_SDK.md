@@ -1,31 +1,31 @@
 ---
-layout: post
-title: 10 Ugly Bugs Snap Didn't Bother To Fix In Snap Kit And Lessons They Teach
-comments: true
-published: false
-social-share: true
-tags:
-- Tech
-- Snapchat
-- Snap Kit
-- Mobile Development
+  layout: post
+  title: 10 Ugly Bugs Snap Didn't Bother To Fix In Snap Kit And Lessons They Teach
+  comments: true
+  published: false
+  social-share: true
+  tags:
+  - Tech
+  - Snapchat
+  - Snap Kit
+  - Mobile Development
 ---
 ![](https://i.postimg.cc/2SmY3Pj5/written_by_banner.png)
 ![](https://installornot.com/wp-content/uploads/Snapchat-Snap-Kit-1024x544.jpg)
 # Snap has many bussiness problems, including the poor roll out of Snap Kit SDK.
-I'm an iOS Hobbyist developer using Swift 4 and iOS 12 and have been working with Snap Kit now for many months.  With over 10 Medium posts, I have been chronicalling my struggles and victories with the SDK.  I have run into a number of problems.
+I'm an iOS Hobbyist developer using Swift 4 and iOS 12 and have been working with Snap Kit now for many months. With over 10 Medium posts, I have been chronicling my struggles and victories with the SDK. I have run into a number of problems.
 
 # Snapchat Snap Kit SDK Primer
-Snap Kit is Snap's attempt to go beyond its primary app offering.  To grow and stay relevant, Snap log in must be as prevalent as Facebook, Twitter, or Google log in.  Plus Snap could become the GIFY of the AR world through integrating Bitmoji, Filters and Lenses into the 3rd party app echosystem.
+
+Snap Kit is Snap's attempt to go beyond its primary app offering. To grow and stay relevant, Snap login must be as prevalent as Facebook, Twitter, or Google's authentication on Apps. GIFY has inserted itself into many other apps and Snap has the opportunity to do the same thing with AR content, Stories, Lenses, and Filters.
 
 Snap Kit SDK is Snap's attempt to become sticky.
 
 The bugs described are purposefully written in "Bug Style" with the hope that each will actually get filed against Snap Kit SDK for Snapchat App
 
-Some of the bugs documented below are nit-picky, however Snap is in no position to allow even the slightest developer friction to occur.  Snap's future is partly riding on the success of Snap Kit, and the bussiness has very little wiggle room to get things wrong.  Winning over the developer community is paramount to Snap Kit SDK adoption.
+Some of the bugs documented below are nit-picky, however, Snap is in no position to allow even the slightest developer friction to occur. Snap's future is partly riding on the success of Snap Kit, and the business has very little wiggle room to get things wrong. Winning over the developer community is paramount to Snap Kit SDK adoption.
 
-Also some of these could be considered feature requests, documentation requests or things that are "not bugs".  As someone with 20 years of software industry experience, I say these are "Failures" that need to be addressed (aka Bugs).
-
+Also, some of these could be considered feature requests, documentation requests or things that are "not bugs". As someone with 20 years of software industry experience, I say these are "FAILURES" that need to be addressed (aka Bugs).
 ![snapchat-2123517_1920.jpg](https://i.postimg.cc/vmG3vz0s/snapchat-2123517_1920.jpg)
 
 # Bugs
@@ -46,8 +46,8 @@ Automated response text says:
 
 There are a few issues with the automated response:
 * Tells the customer who is seeking customer support to look at the news blog.  The news blog is **not** designed as a customer support tool.
-* Tells the customer if they need further assistance to go to "I need help".  Here again, this part of the Snapchat website is **not** designed to deliver developer nor customer facing support for Snap Kit.  A look at that URL will show that there is no way to report a specific Snap Kit SDK issue and the user will feel like anything they report there will end up in a black hole.
-* The automated responsedoes not say that anyone will actually read the email the customer sent nor help.  It only talks about where to go and what to read.  It is far from customer friendly.
+* Tells the customer if they need further assistance to go to "I need help".  This part of the Snapchat website is **not** designed to deliver developer nor customer facing support for Snap Kit.  A look at that URL will show that there is no way to report a specific Snap Kit SDK issue and the user will feel like anything they report there will end up in a black hole.
+* The automated response does not say that anyone will actually read the email the customer sent nor help.  It only talks about where to go and what to read.  It is far from customer friendly.
 
 ### Suggested Mitigation
 Reword the automated response:
@@ -66,22 +66,16 @@ Note the available options:
 * My account login
 * Report a safety concern
 * My Snapchat isn't working
-* My Snapstreaks disappeared
-* I have a Filter or Lens question
-* I have a business concern
-* I have a Spectacles question
-* I have a Snap Store question
-* I have feedback
-* I have a privacy question
+* My Snapstreaks disappeared . . .
 
-None of the above are remotely clear options for someone seeking Snap Kit SDK assistance
+None of these provide a remotely clear options for someone seeking Snap Kit SDK assistance
 
 ### Suggested Mitigation
 Add an option for Snap Kit SDK Support
 
 ![](https://cdn-images-1.medium.com/max/2000/1*gCTL9i4szIqePqvcSfRr2g.png)
 
-## 3 - Snapchat Support On Twitter Needs Redirect Option for SDK questions
+## 3 - Snapchat Support On Twitter Not Providing SDK Support
 ### Steps to Reproduce
 1. Go to https://twitter.com/snapchatsupport
 2. Ask a Snap Kit question such as "Do we ask this account for help with Snap Kit?"
@@ -89,12 +83,12 @@ Add an option for Snap Kit SDK Support
 ### Result
 A number of problematic results occur.  However, the key is that the team delivering support through twitter is clearly not staffed to handle Snap Kit SDK questions.
 
-The initial response after step 2 above was a bot with a link to https://kit.snapchat.com/.  Clearly not a helpful response to the question.
+The initial response after step #2 above was a bot with a link to https://kit.snapchat.com/.  Clearly not a helpful response to the question.  Also, see the image directly above this bug writeup
 
 The next response also seemed canned and perhaps a bot
 >We'll need to look further into this.  Head over to spr.ly/help and select the options that match your issue . . .
 
-That URL leads to the I Need Help page and yields bug #2 above and is somewhat related to bug #1 as well.
+That URL leads to the 'I Need Help' page and yields bug #2 above and is somewhat related to bug #1 as well.
 
 ### Suggested Mitigation
 Modify the bots/automated response on Snapchat Support Twitter account such that it handles Snap Kit queries appropriately.
@@ -119,8 +113,7 @@ This line is not correct
 ```swift
 let photoContent = SCSDKSnapPhotoContent(snapPhoto: photo)
 ```
-It should be 'SCSDKPhotoSnapContent' rather than 'CSDKSnapPhotoContent' (see also bug 5 below)
-
+It should be 'SCSDKPhotoSnapContent' rather than 'CSDKSnapPhotoContent' (see also bug #5 below)
 
 ### Suggested Mitigation
 Please correct the documentation.
@@ -175,6 +168,7 @@ Move this text to the **Getting Started** section on this page.  Perhaps somewhe
 >In your app project in Xcode, add SCSDKCoreKit.framework and SCSDKLoginKit.framework into General - Embedded Binaries.
 
 The above text is correct, yet incomplete.  Snap Kit now offers a Cocoapod install solution.
+
 ### Suggested Mitigation
 Add information about how to use the Cocoapod option for installing Snap Kit
 
@@ -205,28 +199,24 @@ At minimum, place a vertical line between the two areas _App Onfo_ and _Developm
 Also, change the titles of the OAUTH2 CLIENT ID fields so that they read **PRODUCTION OAUTH2 CLIENT ID** and **DEVELOPMENT OAUTH2 CLIENT ID**
 
 ![](https://i.postimg.cc/4NMhkVt5/milkovi-344432-unsplash.jpg)
+
 # 10 - Unlink Sessions Methods Do Not Include Potential Thrown Errors
 1.  Go to https://docs.snapchat.com/docs/login-kit/
 2.  Inspect the information on unlinking Sessions
 ```swift
 SCSDKLoginClient.unlinkCurrentSessionWithCompletion { (success: Bool) in
-  // do something
-}
-```
+    // do something
+  }
+  ```
+  ### Result
+  Neither of the two method throw errors
+  * SCSDKLoginClient.unlinkCurrentSessionWithCompletion
+  * SCSDKLoginClient.unlinkAllSessionsWithCompletion
 
-### Result
-Neither of the two method throw errors
-* SCSDKLoginClient.unlinkCurrentSessionWithCompletion
-* SCSDKLoginClient.unlinkAllSessionsWithCompletion
+  ### Suggested Mitigation
+  Include code to throw errors
 
-### Suggested Mitigation
-Include code to throw errors
-
-## Bonus
-* Add image for each bug
-* Follow up email from "real" support is poorly templated
-* VIDEO for each bug
-* Supply example code for each Kit / All kits (see bitmoji on GitHub)
+# Bonus Bugs
 
 ## A - Snap Kit Twitter Account Not Active Nor Informative
 ### Steps To Reproduce
@@ -252,22 +242,21 @@ I think this text was written when Snap Kit was in beta or had a small and manag
 ### Suggested Mitigation
 Remove the sentence or, if contact is required, explain how and why
 
-
 ## C - Snap Kit Support Boilerplate Not Helpful
 1.  Send a support request to snapkit-support@snap.com
-2.  After the initial automated response documented in Bug 1 above and others, wait for and then read the "live human" support response
+2.  After the initial automated response documented in bug #1 above and others, wait for and then read the "live human" support response
 
 ### Result
 >Chuck (Snap Connect)
-Hello there,
-Thanks for reporting this! In order for us to debug this better, could you please provide the following information:
-Username
-Client ID
-Specific URLs or assets used
-Info.plist (if there’s no sensitive information)
-Code sample if possible
-Screen recording and or screenshots
-IP address
+  Hello there,
+  Thanks for reporting this! In order for us to debug this better, could you please provide the following information:
+  Username
+  Client ID
+  Specific URLs or assets used
+  Info.plist (if there’s no sensitive information)
+  Code sample if possible
+  Screen recording and or screenshots
+  IP address
 
 ### Suggested Mitigation
 I have sent a number of different requests to support and have seen this boilerplate response from Chuck.  Since every SDK engagement is different, this text is not helpful.  In face, I had asked a specific question about the developer portal and then saw this text.  It made me feel that my support issue was not even read, and that the support tech did not bother to read or care about my issue.
@@ -279,31 +268,45 @@ Either modify the text for inclusiveness, or change SOP such that support reps n
 1. Go to https://github.com/Snap-Kit
 
 ### Result
-* No code samples for Android
-* One sample for iOs, but only covers Bitmoji
+  * No code samples for Android
+  * One sample for iOs, but only covers Bitmoji
 
 ### Suggested Mitigation
 Supply Example Code For All Kits and both iOS and Android
 
-# Good Stuff?
+## E - Snap Kit Support (more) Boilerplate Not Helpful
+### Steps To Reproduce
+1.  Send a support request to snapkit-support@snap.com
+2.  After the initial automated response documented in bug #1 above and others, wait for and then read the "live human" support response
 
-If you enjoyed reading this try [Snapchat Snapkit Developer Support Sadly Sad](https://medium.com/adventures-in-ios-mobile-app-development/snapchat-snapkit-developer-support-sadly-sad-89d63011c6ad)
+### Result
+>We appreciate you taking the time to report this!
+Our team is investigating and will follow up if we need more information.
+Thanks, Chuck
 
-<-- **Previous** [The Very Broken Silicon Valley Hiring Process And How To Fix It](https://medium.com/adventures-in-ios-mobile-app-development/the-very-broken-silicon-valley-hiring-process-and-how-to-fix-it-683e0c851f14)   | Next --> [Snapchat Snap Kit SDK Tutorial for iOS Swift](https://medium.com/adventures-in-ios-mobile-app-development/snapchat-snap-kit-sdk-tutorial-for-ios-swift-311863074bab)
+This response does not incude any information on timing for a response.  The customer has no idea what to expect.
 
-# ARE YOU TRYING SNAP KIT?
-If you are a developer working with Snap Kit, comment and tell us about your successes and challenges.  Also consider contributing to the open source [Snap Kit DIY Docs](https://github.com/bbookman/Snapchat-Snap-Kit-DIY-Docs)
+### Suggested Mitigation
+Either do not use boilerplate or change the boilerplate text to include verbaige for expectation setting
 
-# Contact Me
+ # Good Stuff?
 
-* [LinkedIn](http://linkedin.com/in/brucebookman) * [Sagan.one](http://sagan.one)
-* [Twitter @saganone1](https://twitter.com/saganone1)
-* [Medium](https://medium.com/adventures-in-ios-mobile-app-development)
-* [Codementor.io](https://www.codementor.io/bbookman)
-* [Indie Hacker](https://www.indiehackers.com/bbookman)
-* [Blog](http://bbookman.github.io)
-* [Quora](https://saganone.quora.com/)
-* [GitHub](https://github.com/bbookman)
-* [Dev.to](https://dev.to/bbookman)
-* [Reddit](https://www.reddit.com/user/Bbookman)
-* [Youtube](https://www.youtube.com/channel/UCERHLEbt6fipRMiPRR4u3SQ)
+ If you enjoyed reading this try [Snapchat Snapkit Developer Support Sadly Sad](https://medium.com/adventures-in-ios-mobile-app-development/snapchat-snapkit-developer-support-sadly-sad-89d63011c6ad)
+  [<--Previous](https://medium.com/adventures-in-ios-mobile-app-development/the-very-broken-silicon-valley-hiring-process-and-how-to-fix-it-683e0c851f14) | [Next -->](https://medium.com/adventures-in-ios-mobile-app-development/snapchat-snap-kit-sdk-tutorial-for-ios-swift-311863074bab)
+
+  # ARE YOU TRYING SNAP KIT?
+  If you are a developer working with Snap Kit, comment and tell us about your successes and challenges.  Also consider contributing to the open source [Snap Kit DIY Docs](https://github.com/bbookman/Snapchat-Snap-Kit-DIY-Docs)
+
+  # Contact Me
+
+  * [LinkedIn](http://linkedin.com/in/brucebookman) * [Sagan.one](http://sagan.one)
+  * [Twitter @saganone1](https://twitter.com/saganone1)
+  * [Medium](https://medium.com/adventures-in-ios-mobile-app-development)
+  * [Codementor.io](https://www.codementor.io/bbookman)
+  * [Indie Hacker](https://www.indiehackers.com/bbookman)
+  * [Blog](http://bbookman.github.io)
+  * [Quora](https://saganone.quora.com/)
+  * [GitHub](https://github.com/bbookman)
+  * [Dev.to](https://dev.to/bbookman)
+  * [Reddit](https://www.reddit.com/user/Bbookman)
+  * [Youtube](https://www.youtube.com/channel/UCERHLEbt6fipRMiPRR4u3SQ)
