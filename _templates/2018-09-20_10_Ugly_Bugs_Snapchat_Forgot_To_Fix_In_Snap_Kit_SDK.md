@@ -2,6 +2,7 @@
 layout: post
 title: 10 Ugly Bugs Snap Didn't Bother To Fix In Snap Kit And Lessons They Teach
 comments: true
+published: false
 social-share: true
 tags:
 - Tech
@@ -9,19 +10,17 @@ tags:
 - Snap Kit
 - Mobile Development
 ---
-
-!!!!! Add "Written By Bruce Bookman" to image !!!!!!!
-
+![](https://i.postimg.cc/2SmY3Pj5/written_by_banner.png)
 ![](https://installornot.com/wp-content/uploads/Snapchat-Snap-Kit-1024x544.jpg)
-## Snap has many bussiness problems, including the poor roll out of Snap Kit SDK.
-The bugs described are purposefully written in "Bug Style" with the hope that each will actually get filed against Snap Kit SDK 
+# Snap has many bussiness problems, including the poor roll out of Snap Kit SDK.
+I'm an iOS Hobbyist developer using Swift 4 and iOS 12 and have been working with Snap Kit now for many months.  With over 10 Medium posts, I have been chronicalling my struggles and victories with the SDK.  I have run into a number of problems.
 
 # Snapchat Snap Kit SDK Primer
-I'm an iOS Hobbyist develper and have been working with Snap Kit now for many months.  With over 10 Medium posts, I have been chronicalling my struggles and victories.
-
 Snap Kit is Snap's attempt to go beyond its primary app offering.  To grow and stay relevant, Snap log in must be as prevalent as Facebook, Twitter, or Google log in.  Plus Snap could become the GIFY of the AR world through integrating Bitmoji, Filters and Lenses into the 3rd party app echosystem.
 
 Snap Kit SDK is Snap's attempt to become sticky.
+
+The bugs described are purposefully written in "Bug Style" with the hope that each will actually get filed against Snap Kit SDK for Snapchat App
 
 Some of the bugs documented below are nit-picky, however Snap is in no position to allow even the slightest developer friction to occur.  Snap's future is partly riding on the success of Snap Kit, and the bussiness has very little wiggle room to get things wrong.  Winning over the developer community is paramount to Snap Kit SDK adoption.
 
@@ -199,7 +198,7 @@ Although it is late, it is important to note this issue.  This code base has exi
 
 ### Result
 ![](https://github.com/bbookman/Snapchat-Snap-Kit-DIY-Docs/raw/master/images/devportal1.png)
-This UI does not lend itself to a clear understanding that there are two distinct areas.  The above image explains the problem best.  It is not very clear that there are two sections here.  There is no line between them and the title _App Info_ on the right side does not clearly denote the left side as applying to production (rather than development on the right side).  
+This UI does not lend itself to a clear understanding that there are two distinct areas.  The above image explains the problem best.  It is not very clear that there are two sections here.  There is no line between them and the title _App Info_ on the right side does not clearly denote the left side as applying to production (rather than development on the right side).
 
 ### Suggested Mitigation
 At minimum, place a vertical line between the two areas _App Onfo_ and _Development App Info_.
@@ -248,7 +247,7 @@ The marketing team or other team that owns this account needs to start produc in
 >This documentation assumes you already made contact with us
 
 ### Result
-I think this text was written when Snap Kit was in beta or had a small and managed audience.  And, the text is confusing.  There are no instructions here about how someone makes contact.  
+I think this text was written when Snap Kit was in beta or had a small and managed audience.  And, the text is confusing.  There are no instructions here about how someone makes contact.
 
 ### Suggested Mitigation
 Remove the sentence or, if contact is required, explain how and why
@@ -286,31 +285,14 @@ Either modify the text for inclusiveness, or change SOP such that support reps n
 ### Suggested Mitigation
 Supply Example Code For All Kits and both iOS and Android
 
-## Keywords and SEO
-* [KeywordTool.io](https://keywordtool.io/)
-* [Google Trends]{https://trends.google.com/trends/}
-* [Moz Keyword Explorer](https://moz.com/explorer)
-* [SpyFu](https://www.spyfu.com/) - good for competitive analysis also)
-* [LSI Graph](http://lsigraph.com/)
-* [SEMRush](https://www.semrush.com/)
-* [KeywordFinder](https://kwfinder.com/)
-* [nTopic Keyword Writer](http://www.ntopic.org/writer.php)
-* [nTopic for Chrome](http://www.ntopic.org/tools.php#chrome)
-* [Textalyser](http://textalyser.net/)
-* [Tag Crowd](https://tagcrowd.com/)
+# Good Stuff?
 
-# Publish With the Big Guns
-* [freeCodeCamp](http://bit.ly/how-to-submit)
-* [Top Publications](https://toppub.xyz/)
+If you enjoyed reading this try [Snapchat Snapkit Developer Support Sadly Sad](https://medium.com/adventures-in-ios-mobile-app-development/snapchat-snapkit-developer-support-sadly-sad-89d63011c6ad)
 
-# Social Share
+<-- **Previous** [The Very Broken Silicon Valley Hiring Process And How To Fix It](https://medium.com/adventures-in-ios-mobile-app-development/the-very-broken-silicon-valley-hiring-process-and-how-to-fix-it-683e0c851f14)   | Next --> [Snapchat Snap Kit SDK Tutorial for iOS Swift](https://medium.com/adventures-in-ios-mobile-app-development/snapchat-snap-kit-sdk-tutorial-for-ios-swift-311863074bab)
 
-Insert Share Images and links.  [Links can be generated here](http://www.sharelinkgenerator.com/)
-
-# Newsletter Subscribe
-[Generate your own here](https://upscri.be/)
-
-This style link works with Medium: https://upscri.be/99b881/
+# ARE YOU TRYING SNAP KIT?
+If you are a developer working with Snap Kit, comment and tell us about your successes and challenges.  Also consider contributing to the open source [Snap Kit DIY Docs](https://github.com/bbookman/Snapchat-Snap-Kit-DIY-Docs)
 
 # Contact Me
 
@@ -325,20 +307,3 @@ This style link works with Medium: https://upscri.be/99b881/
 * [Dev.to](https://dev.to/bbookman)
 * [Reddit](https://www.reddit.com/user/Bbookman)
 * [Youtube](https://www.youtube.com/channel/UCERHLEbt6fipRMiPRR4u3SQ)
-
-# Read Next Banner
-
-Add banner at bottom with "Read Next" or "Previous/Next" suggestion point to own content
-
-# Old Points to New
-
-Once posted, edit other posts with _“If you enjoyed this piece, you might also like…”_
-
-# References (for this template)
-* [How to get published in the freeCodeCamp Medium publication](https://medium.freecodecamp.org/how-to-get-published-in-the-freecodecamp-medium-publication-9b342a22400e)
-* [How to Write Viral Headlines: New BuzzSumo Research](https://buzzsumo.com/blog/5-ways-create-amazing-viral-headlines/#gs.5AK_Nuo)
-* [35 Actionable Tips to Grow Your Medium Blog](https://medium.com/swlh/35-actionable-tips-to-grow-your-medium-blog-4e4017b89905)
-* [MoZ Canonicalization](https://moz.com/learn/seo/canonicalization)
-* [Why These 21 Headlines Went Viral (and How You Can Copy Their Success)](https://optinmonster.com/why-these-21-headlines-went-viral-and-how-you-can-copy-their-success)
-* [According to a Study, There’s a Good Chance You’ll Click This Headline Because It’s 97 Characters](https://contently.com/strategist/2017/11/09/study-longer-headline-better/)
-* [Do’s & Don’ts of Re-publishing Content on Medium or LinkedIn](https://www.impactbnd.com/blog/dos-donts-of-re-publishing-content-on-medium-or-linkedin)
