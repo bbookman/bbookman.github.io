@@ -163,6 +163,7 @@ Create image links (to your desired destination).  Click on an image in the edit
 * [Statistica](https://www.statista.com/)
 * [Pew Research](http://www.pewresearch.org/)
 * [Google Scholar](https://scholar.google.com/)
+* [Google Dataset Search](https://techcrunch.com/2018/09/05/google-announces-dataset-search-to-help-scientists-and-journalists-tell-stories/)
 
 
 # Tags
