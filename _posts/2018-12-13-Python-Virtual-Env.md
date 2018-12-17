@@ -46,7 +46,14 @@ I like to have all my virtual environments under a main directory.  I suggest cr
 mkdir python_virtual_environments
 ```
 ## Which version of python
-Many development environments will come standard with at least one if not two versions of Python.  To create a virtual environment, you need to choose a version.
+Many development environments will come standard with at least one version of Python, usually many versions.  
+
+Get a list of Python versions with this command
+```
+ls /usr/bin | grep python*
+```
+
+To create a virtual environment, you need to choose a version.
 
 The syntax is:
 ```
