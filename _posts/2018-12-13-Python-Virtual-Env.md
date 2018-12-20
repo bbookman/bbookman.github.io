@@ -17,7 +17,7 @@ I'm good at forgetting syntax.  And when working in Python, and creating virtual
 
 And it seems that when I look things up, for some reason I have to put 3 different resources together to be successful.
 
-#Python 2
+# Python 2
 ## Check if it is already installed
 Check to see if virtualenv is already installed
 ```
