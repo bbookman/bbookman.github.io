@@ -12,13 +12,12 @@ tags:
 ![python book](https://i.postimg.cc/26vkvWPb/python-achievement-adult-book-1181671.jpg)
 ![written by bruce bookman](https://cdn-images-1.medium.com/max/880/0*-xvbtrI9d5aRFYR4.png)
 
-# Python virtualenv
+# Python virtual environments
 I'm good at forgetting syntax.  And when working in Python, and creating virtual environments - I can never seem to remember the key steps.
 
 And it seems that when I look things up, for some reason I have to put 3 different resources together to be successful.
 
-So here are the steps:
-
+#Python 2
 ## Check if it is already installed
 Check to see if virtualenv is already installed
 ```
@@ -52,7 +51,7 @@ Get a list of Python versions with this command
 ```
 ls /usr/bin | grep python*
 ```
-
+## Create virtual environment
 To create a virtual environment, you need to choose a version.
 
 The syntax is:
@@ -74,6 +73,14 @@ Lastly, activate the virtual environment
 cd scooby_duby_app
 source bin/activate
 ```
+
+# Python 3
+Python 3 comes with venv, which works like virtualenv for Python 2.
+
+## Create virtual environment
+'''
+python3 -m venv <name_of_virtual_environment>
+'''
 
 # Contact Me
 
