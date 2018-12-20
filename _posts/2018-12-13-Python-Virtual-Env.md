@@ -78,9 +78,9 @@ source bin/activate
 Python 3 comes with venv, which works like virtualenv for Python 2.
 
 ## Create virtual environment
-'''
+```
 python3 -m venv <name_of_virtual_environment>
-'''
+```
 
 # Contact Me
 
