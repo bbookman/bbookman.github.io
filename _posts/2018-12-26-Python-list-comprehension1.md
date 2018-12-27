@@ -8,7 +8,7 @@ tags:
 - Python
 - List Comprehension
 ---
-![python image](https://i.postimg.cc/8zFGpcLR/hitesh-choudhary-666995-unsplash.jpg
+![python image](https://i.postimg.cc/8zFGpcLR/hitesh-choudhary-666995-unsplash.jpg)
 # How can a python newbie can stand out in a sea of competition?  Show your list comprehension
 
 As a Software Quality Assurance Engineer, I use python as one tool in my test automation tool chest.  List comprehension is one of the python techniques that not only adds flair to your code, it also saves cpu cycles and is considered 'Pythonic'.
