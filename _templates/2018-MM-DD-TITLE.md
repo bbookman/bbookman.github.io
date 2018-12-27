@@ -1,22 +1,16 @@
 ---
 layout: post
-title: Format, Emotion, Content Type, Promise, Topic
+title: 10 Python List Comprehension Practice Exercises That Will Make You A Hiring Manager's Dream
 comments: true
 social-share: true
 tags:
 - Tech
--
--
+- Python
+- List Comprehension
 -
 ---
-# Headline
-Your headline and opening image are the only things people have to judge your story on. Before they can even read your story’s first paragraph, they must answer a question. It’s the same question that we all ask ourselves every day: is this going to be worth my time?
+# How can a python newbie can stand out in a sea of competition?  Show your list comprehension
 
-* 8 to 14-word headline
-* 80 - 90 characters
-** Facebook 40; Twitter 71 - 100; Linkedin 80-120
-* The more emotional (positive or negative) a headline is, the more likely people will click it
-* See headline analyzers in Tools section below
 
 ## Format, Emotion, Content Type, Promise, Topic
 ### Numbers
