@@ -7,7 +7,8 @@ tags:
 - Speech to Text
 - Google Cloud APIs
 ---
-!(https://miro.medium.com/proxy/0*-xvbtrI9d5aRFYR4.png)
+![brucebookman](https://miro.medium.com/proxy/0*-xvbtrI9d5aRFYR4.png)
+
 
 # A step by step guide to producing the highest value outcomes for speech transcription using Google Speech to Text
 
