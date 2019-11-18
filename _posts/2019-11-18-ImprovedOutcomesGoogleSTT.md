@@ -65,14 +65,14 @@ The testing matrix will include one or more models, one or more language codes, 
 
 |Model       | Language code       |    Alternative languages |    Phrase hints used (y/n) |     Boost value| 
 |:-----------|:--------------------|:-------------------------|:---------------------------|:---------------|
-|phone call | en-US | en-GB, en-Au | n | 0 |
-|enhanced | en-US | en-GB, en-Au | n | 0| 
-|phone call | en-US | en-GB, en-Au | y | 10| 
-|enhanced | en-US | en-GB, en-Au | y | 10|
-|phone call | en-US | en-GB, en-Au | y | 20| 
-|enhanced | en-US | en-GB, en-Au | y | 20|
-|phone call | en-US | NONE | n | 0 |
-|enhanced | en-US | | NONE | n | 0 |
+|phone call     | en-US    | en-GB, en-Au | n | 0 |
+|enhanced     | en-US    | en-GB, en-Au | n | 0| 
+|phone call     | en-US    | en-GB, en-Au | y | 10| 
+|enhanced     | en-US    | en-GB, en-Au | y | 10|
+|phone call     | en-US    | en-GB, en-Au | y | 20| 
+|enhanced     | en-US    | en-GB, en-Au | y | 20|
+|phone call     | en-US    | NONE | n | 0 |
+|enhanced     | en-US     | NONE | n | 0 |
 
 ###  Match models to use case
 Google STT offers a variety of features that can help improve transcription. Create a list of features to evaluate during testing.
