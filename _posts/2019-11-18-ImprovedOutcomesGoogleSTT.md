@@ -64,7 +64,7 @@ The testing matrix will include one or more models, one or more language codes, 
 **Example test matrix**
 
 |model | language code | alternative languages | phrase hints used (y/n) | boost value| 
-|------|---------------|-----------------------|-------------------------|------------|
+|:------|:--------------|:----------------------|:------------------------|:------------|
 |phone call | en-US | en-GB, en-Au | n | 0 |
 |enhanced | en-US | en-GB, en-Au | n | 0| 
 |phone call | en-US | en-GB, en-Au | y | 10| 
