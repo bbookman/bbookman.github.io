@@ -60,10 +60,11 @@ If the intention is to generate labels from transcriptions, a set of labels per 
 
 The testing matrix will include one or more models, one or more language codes, speech adaptation phrase hints and a set of boost values.
 
+
 **Example test matrix**
 
 |model | language code | alternative languages | phrase hints used (y/n) | boost value| 
---------------------------------------------------------------------------------
+|------|---------------|-----------------------|-------------------------|------------|
 |phone call | en-US | en-GB, en-Au | n | 0 |
 |enhanced | en-US | en-GB, en-Au | n | 0| 
 |phone call | en-US | en-GB, en-Au | y | 10| 
